@@ -66,3 +66,9 @@ To start project
 ```sh
 yarn start-storybook
 ```
+
+To Build storybook
+
+```sh
+yarn build
+```
