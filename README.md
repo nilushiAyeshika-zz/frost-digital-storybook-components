@@ -55,6 +55,12 @@ We use [Semantic Versioning](https://semver.org/) to handle versioning
 
 This project has been developed using storybook.
 
+To install node modules
+
+```sh
+yarn
+```
+
 To start project
 
 ```sh
