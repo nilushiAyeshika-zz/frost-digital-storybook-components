@@ -3,22 +3,27 @@
 # dependencies
 /node_modules
 
-# outputs
-server/dist/storybook
-server/dist/docs
-
 # testing
 /coverage
 
 # misc
 .DS_Store
 
+# NPM Shit
 package-lock.json
-yarn.lock
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-
-dist
+# Dev work
+.vscode
+.storybook
+.env
+.eslintrc
+.eslintignore
+docs
+stories
+src
+server
+jsconfig.json

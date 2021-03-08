@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Introduction
+> React component library created for Frost frontend coding test 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- 🚀 Easy to install and use on any of your projects
 
-In the project directory, you can run:
+## Purpose
 
-### `yarn start`
+- We can use these components to create one or more applications and these components are reusable.
+- Pick the component you want from many components.
+- Use this library to enhance existing components and create your new customize components.
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* `react^16` and `react-dom^16` are required for the library to function properly
+* Your project should have support for SCSS
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Installation
 
-### `yarn test`
+```sh
+yarn add frost-web-components
+```
+### Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Example of importing the Button component
 
-### `yarn build`
+```javascript
+import { Button } from 'frost-web-components';
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Component Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We have 4 different types of components, used atomic design concept.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Atoms
 
-### `yarn eject`
+* Smallest components
+* They don't have own states
+* Includes Headings, Texts, Icons etc.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Molecules
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Bigger but simple components
+* Composed of Atomic components
+* Includes Buttons, Containers, etc.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Organisms
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Templates
+### Versioning
 
-## Learn More
+We use [Semantic Versioning](https://semver.org/) to handle versioning
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Storybook
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project has been developed using storybook.
 
-### Code Splitting
+To start project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+yarn start-storybook
+```

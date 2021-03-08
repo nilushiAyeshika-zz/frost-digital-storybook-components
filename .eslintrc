@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:jsx-a11y/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "@babel",
+    "jsx-a11y",
+    "prettier"
+  ],
+  "rules": {
+    "semi": "error",
+    "no-unused-expressions": 0,
+    "no-return-assign": ["error", "except-parens"],
+    "no-plusplus": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/label-has-associated-control": [ "error", {
+      "required": {
+        "some": [ "nesting", "id"  ]
+      }
+    }],
+    "object-curly-spacing": ["error", "always"],
+    "no-underscore-dangle": 0
+  }
+}
